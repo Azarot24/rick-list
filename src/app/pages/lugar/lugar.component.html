@@ -1,0 +1,22 @@
+<div class="content p-10" role="main">
+    <div class="flex flex-col">
+        <div class="flex flex-row">
+            <p class="font-bold text-4xl">Nombre: </p>
+            <p class="font-normal text-4xl">{{location.name}}</p>
+        </div>
+        <div class="grid grid-cols-3 p-1 divide-x w-full">
+            <div>
+                <p class="font-bold text-2xl">Tipo:</p>
+                <p class="font-normal text-2xl">{{location.type}}</p>
+            </div>
+            <div>
+                <p class="font-bold text-2xl">Dimensión:</p>
+                <p class="font-normal text-2xl">{{location.dimension}}</p>
+            </div>
+            <div>
+                <p class="font-bold text-2xl">Número de residentes:</p>
+                <p class="font-normal text-2xl">{{location.residents.length}}</p>
+            </div>
+        </div>
+    </div>
+</div>
